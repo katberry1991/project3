@@ -22,7 +22,13 @@
 				controller: 'CaseController as vm',
 				templateUrl: 'index.html',
 				authReq: false
-			});
+			})
+			.state('example', {
+				url: '/example',
+				controller: 'ExampleController as vm',
+				templateUrl: 'views/example.html',
+				authReq: false
+			})
 		$urlRouterProvider.otherwise('/');
 	}
 
