@@ -29,7 +29,36 @@
 				templateUrl: 'views/example.html',
 				authReq: false
 			})
+			.state('registration', {
+				url: '/',
+				controller: 'CaseController as vm',
+				templateUrl: 'index.html',
+				authReq: false
+			})
 		$urlRouterProvider.otherwise('/');
 	}
-
+.state('login', {
+				url: '/',
+				controller: 'CaseController as vm',
+				templateUrl: 'index.html',
+				authReq: false
+			})
+.state('kioskCaseInfo', {
+				url: '/',
+				controller: 'CaseController as vm',
+				templateUrl: 'index.html',
+				authReq: false
+			})
+.state('caseSummary', {
+				url: '/',
+				controller: 'CaseController as vm',
+				templateUrl: 'index.html',
+				authReq: false
+			})
+.state('caseinfo', {
+				url: '/',
+				controller: 'CaseController as vm',
+				templateUrl: 'index.html',
+				authReq: false
+			})
 })();
