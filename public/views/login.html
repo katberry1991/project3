@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+  	 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body ng-controller="CaseController as vm">
+	<nav>
+		<ul>	
+			<li><a ui-sref="home">Link to Home</a></li>
+			<li><a ui-sref="registration">Link to Registration</a></li>
+			<li><a ui-sref="kioskCaseInfo">Link to Kiosk Case Information</a></li>
+			<li><a ui-sref="caseInfo">Link to Case Information</a></li>
+			<li><a ui-sref="caseSummary">Link to Case Summary</a></li>	
+		</ul>
+	</nav>
+
+	<input type="text" name="Email">
+	<input type="text" name="Password">
+
+	<button>Login</button>
+	<button>Back Home</button>
+	
+	<script src="app.js"></script>
+	<script src="app.routes.js"></script>
+	<script src="javascripts/controllers/CaseController.js"></script>
+	<script src="javascripts/controllers/CaseInfoController.js"></script>
+	<script src="javascripts/controllers/CaseSummaryController.js"></script>
+	<script src="javascripts/controllers/HomeController.js"></script>
+	<script src="javascripts/controllers/KioskCaseInfoController.js"></script>
+	<script src="javascripts/controllers/LoginController.js"></script>
+	<script src="javascripts/controllers/RegistrationController.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script
+  src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"
+  integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw="
+  crossorigin="anonymous"></script>
+</body>
+</html>
